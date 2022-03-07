@@ -1,0 +1,125 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: white;
+  width: 325px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image img {
+  width: 325px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.orderSum {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+}
+
+.orderSum p {
+  color: hsl(224, 23%, 55%);
+}
+
+.paddedDiv {
+  padding: 0px 25px;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.plan img {
+  width: 50px;
+}
+
+.plan1,
+.plan2,
+.plan3 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan2 {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+#bold {
+  margin: 0px;
+  padding: 3px;
+  color: black;
+  font-weight: 700;
+}
+
+.plan2 p {
+  margin: 0px;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan3 p {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  transition: 0.2s opacity;
+}
+
+.payment {
+  background-color: blue;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: inset;
+  transition: 0.2s opacity;
+}
+
+.payment:hover,
+.plan3 p:hover {
+  opacity: 65%;
+}
+
+.payment p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cancel {
+  margin-top: 10px;
+  text-align: center;
+  padding: 0px;
+}
+
+.cancel p {
+  color: hsl(224, 23%, 55%);
+  transition: 0.2s color;
+}
+
+.cancel p:hover {
+  color: black;
+}
